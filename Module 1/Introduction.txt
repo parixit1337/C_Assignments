@@ -10,6 +10,9 @@ Phase :
 - deployment
 - maintenance
 
+
+
+
 * Algorithms : The process which needs to follow step by step is called Algorithms
 
 Scanario -1 : to make tea
@@ -20,7 +23,12 @@ step 3 - process (boil)
 step 4 - output (serve tea)
 step 5 - stop
 
+
+
 * Flowchart : It is pictorial representation of Algorithms
+
+
+
 
 * C : It is general purpose language developed by Dennis Ritchie at Bell lab in 1972.
 - it is first used to transfer data to another place and development in UNIX OS.
@@ -43,6 +51,8 @@ int : datatype
 int main() : compiler start execute code from main function.
 
 
+
+
 * comments : line of code that ignore by complier, complier think there is blank line in program.
 comments used by programmer to understand code.
 
@@ -50,6 +60,8 @@ two types :
 
 // single line comments 
 /* multi line comments */ 
+
+
 
 * Datatype :
 
@@ -59,6 +71,8 @@ Three types of Basic Datatype :
 2) Floating (float): 12.64,15.45,3.14 (floating value like decimal)
 3) Character (char) : 'a','/','b' (for single characters)
 
+
+
 * format specifiers : 
 
 int = %d;
@@ -66,11 +80,15 @@ float = %f;
 char = %c;
 
 
+
+
 * Esquape Sequence
 
 \n : new line 
 \t : for space one tab (4 space)
 \b : remove one character before \b.
+
+
 
 
 * Variable : It is container that store value.
@@ -85,9 +103,13 @@ variable declaration with initilization :
       int a = 10;
 
 
+
+
 * Constant : Fixed value that can not change later.
 
      ex. const int pi = 3.14;
+
+
 
 
 * Operators : perform logical task
@@ -99,9 +121,11 @@ variable declaration with initilization :
 5) conditional operator : (condition)?statement1:statement2;
 6) sizeof operator (return size of datatype): sizeof
 
-&& : logical & - when both condition true
-|| : logical or - when any one condition true
-! : logical not - reverse result (return false if result true)
+&& (logical &)   - when both condition true
+|| (logical or)  - when any one condition true
+!  (logical not) - reverse result (return false if result true)
+
+
 
 * printf : print any sentence to terminal or print value.
 * scanf : get value from user.
