@@ -87,7 +87,7 @@ variable declaration with initilization :
 
 * Constant : Fixed value that can not change later.
 
-     ex. int pi = 3.14;
+     ex. const int pi = 3.14;
 
 
 * Operators : perform logical task
