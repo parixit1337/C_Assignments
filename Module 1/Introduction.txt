@@ -1,0 +1,117 @@
+* SDLC (software development life cycle)
+
+Phase :
+
+- requirement
+- analysis
+- designing
+- development
+- testing
+- deployment
+- maintenance
+
+* Algorithms : The process which needs to follow step by step is called Algorithms
+
+Scanario -1 : to make tea
+
+step 1 - start
+step 2 - take input (take bowl,tea,sugar, water etc..)
+step 3 - process (boil)
+step 4 - output (serve tea)
+step 5 - stop
+
+* Flowchart : It is pictorial representation of Algorithms
+
+* C : It is general purpose language developed by Dennis Ritchie at Bell lab in 1972.
+- it is first used to transfer data to another place and development in UNIX OS.
+- It is used to build compiler of various language.
+
+Syntax : 
+
+#include <stdio.h>
+
+int main ()
+{
+    // code
+    return 0;
+}
+
+# : preprocessor
+<stdio.h> : input / output standard library
+#include <stdio.h> : headerfile
+int : datatype
+int main() : compiler start execute code from main function.
+
+
+* comments : line of code that ignore by complier, complier think there is blank line in program.
+comments used by programmer to understand code.
+
+two types :
+
+// single line comments 
+/* multi line comments */ 
+
+* Datatype :
+
+Three types of Basic Datatype :
+
+1) Integer (int) : 1,2,300,58,654 (numbers without decimal value)
+2) Floating (float): 12.64,15.45,3.14 (floating value like decimal)
+3) Character (char) : 'a','/','b' (for single characters)
+
+* format specifiers : 
+
+int = %d;
+float = %f;
+char = %c;
+
+
+* Esquape Sequence
+
+\n : new line 
+\t : for space one tab (4 space)
+\b : remove one character before \b.
+
+
+* Variable : It is container that store value.
+
+variable declaration : 
+      int a;
+
+variable initilization : 
+      a = 10;
+
+variable declaration with initilization :
+      int a = 10;
+
+
+* Constant : Fixed value that can not change later.
+
+     ex. int pi = 3.14;
+
+
+* Operators : perform logical task
+
+1) arithmatic operator(mathematical task) : (+,-,*,/,%)
+2) Assignment operator(assign value) : (=, +=, -=, *=, /=)
+3) Logical operator : ( &&, ||, !)
+4) Relational operator (compare value) : (<,>,<=,>=,==,!=)
+5) conditional operator : (condition)?statement1:statement2;
+6) sizeof operator (return size of datatype): sizeof
+
+&& : logical & - when both condition true
+|| : logical or - when any one condition true
+! : logical not - reverse result (return false if result true)
+
+* printf : print any sentence to terminal or print value.
+* scanf : get value from user.
+
+ex. int a;
+    printf ("Enter Number : ");
+    scanf ("%d", &a);
+
+    number entered by user will be stored in variable a. address operator '&' give location
+    of variable.
+
+
+    
